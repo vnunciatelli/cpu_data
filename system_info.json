@@ -1,0 +1,11 @@
+{
+    "os": "WINNT",
+    "cpu": "Caption                                \r\nIntel64 Family 6 Model 140 Stepping 1",
+    "temperature": "N\/A",
+    "memory": [],
+    "disk": {
+        "total": null,
+        "used": null,
+        "free": null
+    }
+}

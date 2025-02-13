@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #000000, #3a3a3a);
+    color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fdd017; /* Dourado, para um toque Jedi */
+}
+
+.info-item {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f5f5f5;
+}
+
+/* Adicionando alguns detalhes com cores inspiradas em Star Wars */
+.info-item:nth-child(odd) {
+    background-color: #1a1a1a; /* Fundo mais escuro para elementos ímpares */
+    border-left: 5px solid #ff0000; /* Vermelho para um toque de sabre de luz */
+}
+
+.info-item:nth-child(even) {
+    background-color: #333333; /* Fundo mais suave para elementos pares */
+    border-left: 5px solid #00ff00; /* Verde para um toque Jedi */
+}
